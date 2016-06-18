@@ -12,7 +12,7 @@ The task was to develop a program which takes numbers from stdin and saves it in
 -1    -> print the values in the list
 ```
 ## Part 1: C code
-The first part of the task is to implement the program in C. After that, I replaced the ```for``` and ```while``` loops with ```if``` and ```goto```. Then I prepared the C code so that it would be easy to rewrite to TOY assembly. 
+The first part of the task is to implement the program in C. After that, I replaced the ```for``` and ```while``` loops with ```if``` and ```goto```. Then I prepared the C code so that it would be easy to rewrite to TOY assembly.
 
 ## Part 2: Rewrite
 If you take a look at **final.c**, you can see that the C code is very assembly like. The only challenge was to access the array. Here is a quick example how to create and access an array in TOY.
@@ -33,3 +33,5 @@ ADD R3  R1  R2  ; Calculate the addres of the 3rd element and save it in R3
 LDA R4  7       ; Load the value 7 in R4
 STI R4  R3      ; Store R4 at the address R3
 ```
+# Assignement 2
+The task was to implement the same program from **assignement 1** in [Logisim](http://www.cburch.com/logisim/).
